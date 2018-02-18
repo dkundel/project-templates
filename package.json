@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/dkundel/GITHUBPROJECT.git"
   },
-  "keywords": [],
+  "keywords": ["project-templates"],
   "author": "Dominik Kundel <dominik.kundel@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -38,11 +38,7 @@
     "prettier": "^1.10.2"
   },
   "nodemonConfig": {
-    "watch": [
-      "src"
-    ]
+    "watch": ["src"]
   },
-  "files": [
-    "bin/"
-  ]
+  "files": ["bin/"]
 }

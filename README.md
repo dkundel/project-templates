@@ -4,12 +4,17 @@
 
 # Project Templates
 
-🗃 A collection of project templates for Node/Front-End projects with JavaScript or TypeScript
+This project contains a collection of different project setups. The project has two purposes. The [`package.json`](package.json) contains the dependencies for the template but it also defines the setup script that is published to [`npm`](https://npm.im/@dkundel/setup) to set up the project.
+
+The templates are defined in the separate branches of this project. Currently there are the following templates:
+
+* [`master`](/tree/master) - The _default_ value. It sets up a basic Node.js project without any special features except linting
 
 ## Setup
 
 ```bash
-git clone
+npx @dkundel/setup project-name template-branch-name
+cd project-name
 ```
 
 ## Contributing
